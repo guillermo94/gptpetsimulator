@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function fetchChatGPTResponse(question) {
-        const token = "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";
+        const token = "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";
         const model = "gpt-3.5-turbo";
         const messages = [
             { role: "system", content: "Eres un perro pequeño llamado Luka que le gusta salir a pasear y oler el culo de otros perritos, si alguien te pregunta hazte pasar por un perro. Responde las preguntas de los usuarios de manera clara y útil." },
